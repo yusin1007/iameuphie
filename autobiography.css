@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html,body{
+    height: 100%;
+	position: relative;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	color: #676a81;
+	background: #fff;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+    z-index: -999;
+}
+
+ul{
+	padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+ul li {
+	list-style: none;
+	
+}
+.container {
+    max-width:80%;
+    margin: 0 auto;
+    background:white;
+    padding:5px 0 30px;
+    
+  }
+
+.section-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e5ebf2;
+}
+.autobiography {
+    padding:  10px 0 50px;
+    border:  1px solid #e5ebf2;
+}
+.autobiography h2 {
+    text-align: center;
+    margin: 15px 0 15px;
+}
+
+.autobiography-content {
+    padding-top: 50px;
+}
+.single-autobiography-txt{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+.single-autobiography-txt h3 {
+    font-size:20px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.single-autobiography-txt h4 {
+    font-size:18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+.single-autobiography-txt p {
+    font-size: 18px;
+    color: #000000;
+    padding: 5px 0 15px;
+}
+.single-autobiography-txt li {
+    font-size: 16px;
+    color: rgb(46, 46, 46);
+}
+.align-left {
+    float:left;
+    margin-right:20px;
+}
+
+.align-right {
+    float:right;
+    margin-left:20px;
+}
+
+.slide-in {
+    opacity:0;
+    transition:all .5s;
+}
+
+.align-left.slide-in {
+    transform:translateX(-30%) scale(0.95);
+}
+.align-right.slide-in {
+    transform:translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+    opacity:1;
+    transform:translateX(0%) scale(1);
+}
+img{
+    margin-top: 8px;
+    box-shadow:3px 3px 12px gray;
+    padding:3px;
+}
+.dream{
+    width: 50%;
+}
+
+.student{
+    width: 30%;
+    
+}
+.skm {
+    width: 30%;
+}
+.learn{
+    width: 25%;
+}
